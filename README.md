@@ -1,4 +1,4 @@
-# edge-network
+# Edge Network
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,152 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-edge-network is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://edge.network/
+Edge Network is a decentralised cloud infrastructure platform offering CDN, compute, storage, DNS, bot protection (Shield) and AI site assistants (Assist). It operates on a global network of edge nodes, providing zero egress fees and generous free tiers for developers and businesses. The service aims to bring applications closer to users for faster performance and lower latency, with a focus on security and scalability.
+
+**Areas:** Cloud · CDN · Compute · Storage · DNS · Security · AI
+
+## Edge Network on APIs.io
+
+Everything profiled for Edge Network is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/edge-network/](https://apis.io/providers/edge-network/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Edge Network Assist API](https://apis.io/apis/edge-network/edge-network-assist-api/) — AI answers widget for any website, grounded in its own content.
+- [Edge Network CDN API](https://apis.io/apis/edge-network/edge-network-cdn-api/) — Global CDN deployments with free SSL and zero egress.
+- [Edge Network Compute API](https://apis.io/apis/edge-network/edge-network-compute-api/) — Virtual machines, SSH keys, firewall security groups.
+- [Edge Network Deploy API](https://apis.io/apis/edge-network/edge-network-deploy-api/) — High-level orchestration: files or repo in, live URL out.
+- [Edge Network Discovery API](https://apis.io/apis/edge-network/edge-network-discovery-api/) — Self-describing entry points — start at GET /agent.
+- [Edge Network DNS API](https://apis.io/apis/edge-network/edge-network-dns-api/) — Authoritative DNS zones, records, and AI-powered zone examination.
+- [Edge Network Projects API](https://apis.io/apis/edge-network/edge-network-projects-api/) — Group resources, check health, scale, tear down.
+- [Edge Network Shield API](https://apis.io/apis/edge-network/edge-network-shield-api/) — Free privacy-first CAPTCHA alternative with verified-agent policies.
+- [Edge Network Signup API](https://apis.io/apis/edge-network/edge-network-signup-api/) — Autonomous agent self-signup (no card, no human in the loop).
+- [Edge Network Storage API](https://apis.io/apis/edge-network/edge-network-storage-api/) — S3-compatible object storage buckets.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Edge Network Agentic Access](https://apis.io/agentic-access/edge-network/edge-network-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ComputeScript](https://apis.io/schemas/edge-network/edge-network-compute-script/)
+- [DnsRecord](https://apis.io/schemas/edge-network/edge-network-dns-record/)
+- [Project](https://apis.io/schemas/edge-network/edge-network-project/)
+- [SecurityGroup](https://apis.io/schemas/edge-network/edge-network-security-group/)
+- [ShieldWidget](https://apis.io/schemas/edge-network/edge-network-shield-widget/)
+- [Vm](https://apis.io/schemas/edge-network/edge-network-vm/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Edge Network Context](https://apis.io/jsonld/edge-network/edge-network-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Edge Network API Rules](https://apis.io/rules/edge-network/edge-network-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Edge Network Authentication](https://apis.io/security/edge-network/edge-network-authentication/)
+- [Edge Network Domain Security](https://apis.io/security/edge-network/edge-network-domain-security/)
+- [Edge Network Trust Center](https://apis.io/security/edge-network/edge-network-trust-center/)
+- [Edge Network Vulnerability Disclosure](https://apis.io/security/edge-network/edge-network-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Edge Network Plans Pricing](https://apis.io/plans/edge-network/edge-network-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Edge Network Rate Limits](https://apis.io/rate-limits/edge-network/edge-network-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://edge.network/)
+- [Documentation](https://edge.network/docs)
+- [Getting started](https://edge.network/assist)
+- [API reference](https://edge.network/openapi.json)
+- [Pricing](https://edge.network/pricing)
+- [Support](https://edge.network/contact)
+- [Changelog](https://edge.network/releases)
+- [Blog](https://edge.network/latest)
+- [Security](https://edge.network/security)
+- [Compliance](https://edge.network/security)
+- [Terms of service](https://edge.network/terms)
+- [Privacy policy](https://edge.network/privacy)
+- [GitHub](https://github.com/edge)
+- [Status](https://edge.network/status)
+
+## API Evangelist rating
+
+**Kin Score 76.3** — exemplar · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 88.9 |
+| Developer ergonomics | 77.9 |
+| Access clarity | 75.8 |
+
+**Agent readiness 52.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/edge-network/](https://apis.io/providers/edge-network/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Edge Network: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/edge-network/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
